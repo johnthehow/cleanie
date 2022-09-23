@@ -1,6 +1,6 @@
 # Cleannie 小干净
 ## Designing Principle 设计理念
-* 白名单式筛选合法token, 合法保留, 非法剔除
+* 文本清理理论 (NOTION:20220923102029)
 
 ## Features 功能介绍
 * 适用于一行一句型平白文本
