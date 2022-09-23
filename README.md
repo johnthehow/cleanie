@@ -1,4 +1,5 @@
 # Cleannie 小干净
+
 ## Designing Principle 设计理念
 * 文本清理理论 (NOTION:20220923102029)
 
@@ -18,6 +19,11 @@
 * 清除单词两边的非发声符号
 * 替换URL为[URL]
 * 小写化
+
 ## Usage 用法
+* 用例: corprep_en.pipeline(r'X:/test.txt', r'X:/')
+	* 输入: 未经处理的平白文本
+	* 输出: 处理后的平白文本和统计
 
 ## Dependencies 依赖
+* BeautifulSoup
