@@ -322,6 +322,7 @@ def split_abc_endpunct_abc(token):
 		print('split_abc_endpunct_abc: trying to split abc.!?abc while is not one')
 	return res
 
+# 是否包含'号缩约式
 def is_contain_contract(token):
 	res = False
 	regex = re.compile(f'[{LEGAL_ABC}]+\'[{LEGAL_ABC}]+')
@@ -382,6 +383,7 @@ def is_contain_url(token):
 		res = False
 	return res
 
+# 是否含有货币符号
 def is_contain_currency(token):
 	regex = re.compile('[$£€¥₹](\d+)?(,)?(\d+)?(\.?)(\d)+')
 	if re.search(regex,token) != None:
